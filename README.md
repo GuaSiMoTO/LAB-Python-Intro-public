@@ -40,8 +40,11 @@ Rules:
 Input  Output
 
 13  You can drink Water
+
 15  You can drink Water and Strawberry Clipper
+
 18  you can drink Water, Strawberry Clipper and Tropical
+
 24  you can drink Water, Strawberry Clipper, Tropical and Whisky
 
 ## Iteration 3 / **What_is_in_the_center** 
