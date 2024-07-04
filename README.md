@@ -19,9 +19,9 @@ Ready?
 
 Write a program to convert a name into initials. The ouput should be two capital letters with a dot separating them.
 
-Input  Output
-John Wick  J.W
+Input => John Wick
 
+Output => J.W
 
 ## Iteration 2 / **What_can_i_drink**
 
