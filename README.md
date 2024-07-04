@@ -17,7 +17,7 @@ Ready?
 ---
 ## Iteration 1 / **Give_me_initials**
 
-Write a function to convert a name into initials. The ouput should be two capital letters with a dot separating them.
+Write a program to convert a name into initials. The ouput should be two capital letters with a dot separating them.
 
 Input => John Wick
 
@@ -25,7 +25,7 @@ Output => J.W
 
 ## Iteration 2 / **What_can_i_drink**
 
-Make a function that receives the age and returns the drink that he is allowed to drink.
+Make a program that receives the age and returns the drink that he is allowed to drink.
 
 Rules:
 -	Kids drink Water
@@ -59,7 +59,7 @@ Academy  d
 
 ## Iteration 4 / **Count**
 
-Write a function that prompts the user to enter a text string and then counts and displays how many times the letter 'a' appears in the string. Use a loop to iterate over the string and a counter to keep track of the count.
+Write a program that prompts the user to enter a text string and then counts and displays how many times the letter 'a' appears in the string. Use a loop to iterate over the string and a counter to keep track of the count.
 
 ## Iteration 5 / **The_calculator**
 
