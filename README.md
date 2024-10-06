@@ -15,65 +15,175 @@ Ready?
 
 
 ---
-## Iteration 1 / **Give_me_initials**
 
-Write a program to convert a name into initials. The ouput should be two capital letters with a dot separating them.
+## Iteration 1 / **Hello_User**
 
-Input => John Wick
+Write a program that asks the user for their name and then prints a greeting.
 
-Output => J.W
+**Input:** (provided by user)  
+John
 
-## Iteration 2 / **What_can_i_drink**
+**Output:**  
+Hello, John!
+
+---
+
+## Iteration 2 / **Add_Numbers**
+
+Create a program that takes two numbers from the user and prints their sum.
+
+**Input:** (provided by user)  
+4, 5
+
+**Output:**  
+The sum is: 9
+
+---
+
+## Iteration 3 / **What_is_your_age**
+
+Write a program that asks the user for their birth year and calculates their current age.
+
+**Input:** (provided by user)  
+1990
+
+**Output:**  
+You are 34 years old.
+
+---
+
+## Iteration 4 / **Even_or_Odd**
+
+Make a program that checks if a number entered by the user is even or odd.
+
+**Input:** (provided by user)  
+7
+
+**Output:**  
+The number is odd.
+
+---
+
+## Iteration 5 / **Count_to_Ten**
+
+Write a program that uses a loop to print the numbers from 1 to 10.
+
+**Output:**  
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+---
+
+## Iteration 6 / **Multiplication_Table**
+
+Write a program that asks the user for a number and prints the multiplication table for that number (from 1 to 10).
+
+**Input:** (provided by user)  
+5
+
+**Output:**  
+5 x 1 = 5  
+5 x 2 = 10  
+...  
+5 x 10 = 50
+
+---
+
+## Iteration 7 / **What_can_i_drink**
 
 Make a program that receives the age and returns the drink that he is allowed to drink.
 
 Rules:
--	Kids drink Water
--	Tens drink Strawberry Clipper
--	Young Adults drink Tropical
--	Adults drink Whisky
--	Kids Under 14 old
--	Teens Under 18 old
--	Young Adults Under 21 old
--	Adults have 21 or more
+-	Kids (under 14 old) drink Water
+-	Tens (under 18 old) drink Strawberry Clipper
+-	Young Adults (under 21 old) drink Tropical
+-	Adults (21 or more) drink Whisky
 
-Input  Output
+Examples of Input -> Output:
 
-13  You can drink Water
+13 -> 'You can drink Water'
 
-15  You can drink Water and Strawberry Clipper
+15 -> 'You can drink Water and Strawberry Clipper'
 
-18  you can drink Water, Strawberry Clipper and Tropical
+18 -> 'You can drink Water, Strawberry Clipper and Tropical'
 
-24  you can drink Water, Strawberry Clipper, Tropical and Whisky
+24 -> 'You can drink Water, Strawberry Clipper, Tropical and Whisky'
 
-## Iteration 3 / **What_is_in_the_center** 
+## Iteration 8 / **What_is_in_the_center** 
 
 You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
 
-Input  Output
+Example of Input -> Output
 
-Reboot  bo
+Reboot -> bo
 
-Academy  d
+Academy -> d
 
-## Iteration 4 / **Count**
+## Iteration 9 / **Count**
 
 Write a program that prompts the user to enter a text string and then counts and displays how many times the letter 'a' appears in the string. Use a loop to iterate over the string and a counter to keep track of the count.
 
-## Iteration 5 / **The_calculator**
+---
+
+## Iteration 9 / **Sum_of_Digits**
+
+Write a program that asks the user for a number and prints the sum of its digits.
+
+**Input:** (provided by user)  
+345
+
+**Output:**  
+The sum of digits is: 12
+
+---
+
+## Bonus 1 - **Reverse_String**
+
+Write a program that takes a string provided by the user and prints it in reverse. Using reverse() function is forbidden!
+
+**Input:** (provided by user)  
+hello
+
+**Output:**  
+olleh
+
+---
+
+## BONUS 2 - **Palindromes**
+
+Write a program that checks if a word is a palindrome (a word that reads the same forwards and backwards). Ignore case and spaces.
+
+**Input:** (provided by user)  
+Racecar
+
+**Output:**  
+The word is a palindrome.
+
+---
+
+## BONUS 3 - **The_calculator**
 
 We are going to create a very rudimentary calculator. First we will ask the user to indicate the operation he wants to perform, then the first and second numbers. After testing that all the inputs are correct, we execute the operation and return the text:
 
 ```bash
 The result of the "operation" of "number1" and “number2" is "result"
-
 ```
 
-## BONUS - **Guess_the_number**
+Examples:
+- The result of the addition of 5 and 7 is 12
+- The result of the multiplication of 2 and 4 is 8
 
-Let's create a game. First we will generate a random number and we will ask the user to guess it, in each attempt we will answer if the number generated is greater or less than what has been entered. When the user is correct, we will congratulate him and indicate the number of attempts he needed to guess it.
+---
 
+## BONUS 4 - **Install_Python_Script**
+
+Create a script that automates the installation of Python 3, pip, virtualenv, and Git on a machine running Ubuntu. The script should perform the following steps:
+
+1. Update the system packages.
+2. Install Python 3, pip, and virtualenv.
+3. Install Git.
+4. Optionally install Visual Studio Code.
+
+---
 ## Submission
 
 Upon completion, run the following commands:
