@@ -124,7 +124,7 @@ Write a program that prompts the user to enter a text string and then counts and
 
 ---
 
-## Iteration 9 / **Sum_of_Digits**
+## Iteration 10 / **Sum_of_Digits**
 
 Write a program that asks the user for a number and prints the sum of its digits.
 
