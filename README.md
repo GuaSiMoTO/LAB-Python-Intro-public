@@ -125,7 +125,7 @@ Write a program that prompts the user to enter a text string and then counts and
 **Input:**
 "I am in love with Reboot Academy"
 
-**Output**
+**Output:**
 3
 
 ---
