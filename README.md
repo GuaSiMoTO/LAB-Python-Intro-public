@@ -127,6 +127,7 @@ Write a program that prompts the user to enter a text string and then counts and
 
 **Output**
 3
+
 ---
 
 ## Iteration 10 / **Sum_of_Digits**
