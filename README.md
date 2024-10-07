@@ -118,10 +118,15 @@ Reboot -> bo
 
 Academy -> d
 
-## Iteration 9 / **Count**
+## Iteration 9 / **Counting chars**
 
-Write a program that prompts the user to enter a text string and then counts and displays how many times the letter 'a' appears in the string. Use a loop to iterate over the string and a counter to keep track of the count.
+Write a program that prompts the user to enter a text string and then counts and displays how many times the letter 'a' in lowercase or uppercase appears in the string. Use a loop to iterate over the string and a counter to keep track of the count.
 
+**Input:**
+"I am in love with Reboot Academy"
+
+**Output**
+3
 ---
 
 ## Iteration 10 / **Sum_of_Digits**
